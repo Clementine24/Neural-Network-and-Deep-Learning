@@ -1,0 +1,5 @@
+testOracleDataset/vec/0.npz
+testOracleDataset/vec/1.npz
+testOracleDataset/vec/2.npz
+testOracleDataset/vec/3.npz
+testOracleDataset/vec/4.npz
