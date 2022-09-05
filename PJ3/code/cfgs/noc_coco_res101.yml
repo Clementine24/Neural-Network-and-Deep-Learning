@@ -1,0 +1,23 @@
+# dataset setting
+dataset: coco
+input_json: '/tmp/pycharm_project_904/NBT/data/noc_coco/cap_coco_noc_only.json'
+input_dic: '/tmp/pycharm_project_904/NBT/data/noc_coco/dic_coco_noc_only.json'
+image_path: '/tmp/pycharm_project_904/cocoapi/images'
+proposal_h5: '/tmp/pycharm_project_904/NBT/data/coco/coco_detection.h5'
+data_path: 'data'
+# language model
+cnn_backend: res101
+att_model: topdown
+rnn_size: 1024
+num_layers: 1
+seq_length: 20
+# image model
+image_size: 576
+image_crop_size: 512
+# decode setting
+decode_noc: True
+cached_tokens: 'coco-train-idxs'
+val_split: 'test'
+val_images_use: -1
+cider_df: 'noc_test_freq'
+optim: 'adam'
