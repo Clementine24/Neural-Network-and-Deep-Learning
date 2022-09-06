@@ -1,0 +1,1 @@
+This project uses MATLAB to explore the structure and parameter setting of neural network. See project_1.pdf for specific requirements, see project1_summary/Report_19307110499_李一帆.pdf for the report.
